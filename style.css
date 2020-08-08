@@ -3,7 +3,7 @@
     margin: auto;
     display: block;
     border-radius: 25px;
-    width: 50%;
+    width: 500px;
     height: 30px;
     border: 1px solid rgb(201, 200, 200);
     background-image: url("searchicon.png");
@@ -31,6 +31,13 @@
     margin-right: auto;
     padding-top: 10%;
     padding-bottom: 20px;
+}
+
+#logoimg
+{
+    padding-top: 200px;
+    position: relative;
+    text-align: center;
 }
 
 .links
@@ -97,4 +104,12 @@
 #feelinglucky:hover
 {
     border: 1px solid gray;
+}
+
+.logo-subtext
+{   
+    position: relative;
+    left: 100px;
+    bottom: 25px;
+    color: blue;
 }
