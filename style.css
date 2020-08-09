@@ -24,20 +24,13 @@
 {
     box-shadow:rgba(0,0,0,0.5) 0px 0px 3px; 
 }
-#logo
-{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 10%;
-    padding-bottom: 20px;
-}
+
 
 #logoimg
 {
+    display: flex;
+    justify-content: center; 
     padding-top: 200px;
-    position: relative;
-    text-align: center;
 }
 
 .links
@@ -109,7 +102,23 @@
 .logo-subtext
 {   
     position: relative;
-    left: 100px;
-    bottom: 25px;
     color: blue;
+    top: 70px;
+    right: 55px;
+    width: 0px;
+    
+}
+
+.labels
+{
+    
+    display: inline-block;
+    width: 180px;
+    height: 50px;
+    
+}
+
+#advancedbutton
+{
+    margin-left: 240px;
 }

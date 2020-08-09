@@ -5,10 +5,24 @@
         <title>Search</title>
     </head>
     <body>
+        <h2>Advanced Search</h2>
+        <hr>
+        <h3>Find pages with...</h3>
         <form action="https://google.com/search">
-            <input type="text" name="q">
-            <input type="hidden" name="tbm" value="isch">
-            <input type="submit" value="Google Search">
+            <label for="1" class="labels">all these words:</label>
+            <input type="text" name="as_q" id="1" class="advancedsearch"><br>
+            <label for="2"  class="labels">this exact word or phrase:</label>
+            <input type="text" name="as_epq" id="2" class="advancedsearch"><br>
+            <label for="3"  class="labels">any of these words:</label>
+            <input type="text" name="as_oq" id="3" class="advancedsearch"><br>
+            <label for="4"  class="labels">none of these words:</label>
+            <input type="text" name="as_eq" id="4" class="advancedsearch"><br>
+
+            
+            <div>
+                <input type="submit" value="Advanced Search" id="advancedbutton">
+            </div>
+            
         </form>
         <div class="links">
             <a href="index.html">Google Search</a>
